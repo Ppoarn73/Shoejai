@@ -1,8 +1,7 @@
-package com.example.Shoejai.Controller;
+package com.example.Shoejai.controller;
 
-import com.example.Shoejai.Model.Shoe;
-import com.example.Shoejai.Repository.ShoeRepository;
-import com.example.Shoejai.Service.ShoeService;
+import com.example.Shoejai.model.Shoe;
+import com.example.Shoejai.service.ShoeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.example.Shoejai.Model;
+package com.example.Shoejai.model;
 
 import lombok.Data;
 import org.bson.types.ObjectId;

@@ -1,10 +1,9 @@
-package com.example.Shoejai.Service;
+package com.example.Shoejai.service;
 
-import com.example.Shoejai.Model.Shoe;
-import com.example.Shoejai.Repository.ShoeRepository;
+import com.example.Shoejai.model.Shoe;
+import com.example.Shoejai.repository.ShoeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 

@@ -1,9 +1,8 @@
-package com.example.Shoejai.Repository;
+package com.example.Shoejai.repository;
 
 
-import com.example.Shoejai.Model.Shoe;
+import com.example.Shoejai.model.Shoe;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
 
 public interface ShoeRepository extends MongoRepository<Shoe, String> {
 
