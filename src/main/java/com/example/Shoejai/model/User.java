@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data //lombok = ทำ get/set
 @Document("Users")
-public class Users {
+public class User {
     @Id
     private ObjectId ID;
     private String Password;
