@@ -14,6 +14,7 @@ public class Controller {
     @Autowired // การสร้าง obj. เหมือน new
             ShoeService shoeService;
 
+
 @RequestMapping("/por") // annotation นี้จะทำให้ class นี้กลายเป็น RestController
     public String Hello(){
 
